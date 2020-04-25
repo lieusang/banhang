@@ -1,0 +1,27 @@
+2020-04-19T12:04:17+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-fields.php:111
+Stack trace:
+#0 C:\xampp\htdocs\myproject\wp-includes\class-wp-hook.php(289): Simple_Mega_Menu_Fields::create_menu_fields(9, Object(WP_Post), 0, Object(stdClass))
+#1 C:\xampp\htdocs\myproject\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\myproject\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-nav-walker-edit.php(94): do_action('wp_nav_menu_ite...', 9, Object(WP_Post), 0, Object(stdClass), 0)
+#4 C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-nav-walker-edit.php(56): Simple_Mega_Menu_Nav_Walker_Edit->get_fields(Object(WP_Post), 0, Object(stdClass))
+#5 C:\xampp\htdocs\myproject\wp-includes\class-wp-walk in C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-fields.php on line 111
+
+2020-04-19T12:04:33+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-fields.php:111
+Stack trace:
+#0 C:\xampp\htdocs\myproject\wp-includes\class-wp-hook.php(289): Simple_Mega_Menu_Fields::create_menu_fields(9, Object(WP_Post), 0, Object(stdClass))
+#1 C:\xampp\htdocs\myproject\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\myproject\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-nav-walker-edit.php(94): do_action('wp_nav_menu_ite...', 9, Object(WP_Post), 0, Object(stdClass), 0)
+#4 C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-nav-walker-edit.php(56): Simple_Mega_Menu_Nav_Walker_Edit->get_fields(Object(WP_Post), 0, Object(stdClass))
+#5 C:\xampp\htdocs\myproject\wp-includes\class-wp-walk in C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-fields.php on line 111
+
+2020-04-19T12:16:01+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-fields.php:111
+Stack trace:
+#0 C:\xampp\htdocs\myproject\wp-includes\class-wp-hook.php(289): Simple_Mega_Menu_Fields::create_menu_fields(9, Object(WP_Post), 0, Object(stdClass))
+#1 C:\xampp\htdocs\myproject\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\myproject\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-nav-walker-edit.php(94): do_action('wp_nav_menu_ite...', 9, Object(WP_Post), 0, Object(stdClass), 0)
+#4 C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-nav-walker-edit.php(56): Simple_Mega_Menu_Nav_Walker_Edit->get_fields(Object(WP_Post), 0, Object(stdClass))
+#5 C:\xampp\htdocs\myproject\wp-includes\class-wp-walk in C:\xampp\htdocs\myproject\wp-content\plugins\themebeez-toolkit\includes\simple-mega-menu\class-simple-mega-menu-fields.php on line 111
+
