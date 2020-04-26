@@ -66,3 +66,73 @@ p.stars.selected a.active::before {
 .cart-amount{
     padding-left: 10px;
 }
+#billing_first_name_field{
+    width: 50% !important;
+}
+#billing_company_field{
+    width: 50%;
+    display: inline-block;
+   
+}
+#billing_last_name_field{
+    display: block;
+    float: right;
+    width: 50%;
+}
+#billing_country_field{
+    width: 50%;
+    padding-left: 20px;
+    display: inline-block;
+   
+}
+#billing_city_field{
+    width: 50%;
+    display: inline-block;
+    
+}
+#billing_state_field{
+    width: 50%;
+}
+#billing_address_1_field{
+    width: 100%;
+    display: inline-block;
+   
+}
+#billing_phone_field{
+    width: 50%;
+}
+#billing_email_field{
+    width: 50%;
+}
+@media only screen and (max-width: 500px) {
+    #billing_phone_field{
+        width: 100%;
+    }
+    #billing_email_field{
+        width: 100%;
+    }
+}
+
+#shipping_first_name_field{
+    width: 50%;
+}
+#shipping_last_name_field {
+    width: 50%;
+}
+#shipping_company_field{
+    width: 50%;
+}
+#shipping_country_field{
+    width: 50%;
+    padding-left: 20px;
+    display: inline-block;
+}
+#shipping_state_field{
+    width: 50%;
+}
+#shipping_city_field{
+    width: 50%;
+}
+#shipping_address_1_field {
+    width: 100%;
+}

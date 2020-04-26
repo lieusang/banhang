@@ -1379,7 +1379,7 @@ class WC_Countries {
 			}
 			$address_fields['billing_email'] = array(
 				'label'        => __( 'Email address', 'woocommerce' ),
-				'required'     => true,
+				'required'     => false,
 				'type'         => 'email',
 				'class'        => array( 'form-row-wide' ),
 				'validate'     => array( 'email' ),
