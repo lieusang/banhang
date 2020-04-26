@@ -68,6 +68,7 @@ p.stars.selected a.active::before {
 }
 #billing_first_name_field{
     width: 50% !important;
+    order: 2 !important;
 }
 #billing_company_field{
     width: 50%;
@@ -78,6 +79,7 @@ p.stars.selected a.active::before {
     display: block;
     float: right;
     width: 50%;
+    order: 1 !important;
 }
 #billing_country_field{
     width: 50%;
@@ -115,9 +117,11 @@ p.stars.selected a.active::before {
 
 #shipping_first_name_field{
     width: 50%;
+    order: 2 !important;
 }
 #shipping_last_name_field {
     width: 50%;
+    order: 1 !important;
 }
 #shipping_company_field{
     width: 50%;
